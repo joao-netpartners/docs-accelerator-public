@@ -1,0 +1,33 @@
+site_name: Documentation (PUBLIC)
+site_url: https://joao-netpartners.github.io/docs-accelerator-public/
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: pt
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/netpartners-official
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/netpartners_/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCZ-rMowq_pAVHVqwwbQRQ4A
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/net-partners/
+
+plugins:
+  - search:
+      lang: pt
+
+copyright: |
+  &copy; 2024 <a href="https://netpartners.com.br/"  target="_blank" rel="noopener">Netpartners</a>
