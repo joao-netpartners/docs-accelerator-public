@@ -32,4 +32,7 @@ jobs:
         run: |
             ls ${{ github.workspace }}
       - run: cd ./docs-public
+      - name: List files in the repository
+        run: |
+            ls .
       - run: mkdocs gh-deploy --force
